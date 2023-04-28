@@ -6,7 +6,6 @@ const customRender = (
   ui: ReactElement,
   options?: Omit<RenderOptions, "wrapper">
 ) => render(ui, { wrapper: AppProviders, ...options });
-
+const hello = "f";
 export * from "@testing-library/react";
 export { customRender as render };
-const hello;
